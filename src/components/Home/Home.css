@@ -1,0 +1,26 @@
+.up_text{
+    font-size: 27px;
+    margin: 30px 0;
+}
+.quiz_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+@media  screen and (max-width: 1050px){
+    .quiz_container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media  screen and (max-width: 850px){
+    .quiz_container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media  screen and (max-width: 550px){
+    .quiz_container{
+        grid-template-columns: repeat(1, 1fr);
+        width: 300px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,9 @@
+.blog{
+    width: 700px;
+    margin: 20px;
+}
+@media screen and (max-width: 850px) {
+    .blog{
+        width: 90% !important;
+    }
+  }

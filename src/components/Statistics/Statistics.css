@@ -1,0 +1,11 @@
+.rechart {
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .chart_control{
+        width: 100% !important;
+    }
+}
